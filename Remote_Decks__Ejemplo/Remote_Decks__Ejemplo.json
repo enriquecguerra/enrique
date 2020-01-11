@@ -1,0 +1,151 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b6024d46-3489-11ea-839e-acde48001122",
+    "deck_config_uuid": "b605924c-3489-11ea-9c2c-acde48001122",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "b605924c-3489-11ea-9c2c-acde48001122",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Remote Decks::Ejemplo",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "b605aa74-3489-11ea-bfaa-acde48001122",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ahora hay que hacerlas",
+                "<ul style='list-style-position: inside;'><li><span style=\"color:#1155cc;text-decoration:underline;\"> https://www.youtube.com/watch?v=uWYibzxQdw4 </span></li></ul>"
+            ],
+            "flags": 0,
+            "guid": "Gc3nMnEqaJ",
+            "note_model_uuid": "b605aa74-3489-11ea-bfaa-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Que ped",
+                "<ul style='list-style-position: inside;'><li>Ya supe como</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "HBVZ.~pEt2",
+            "note_model_uuid": "b605aa74-3489-11ea-bfaa-acde48001122",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Esta bien padre",
+                "<ul style='list-style-position: inside;'><li>No manches</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "G52WD:sWE2",
+            "note_model_uuid": "b605aa74-3489-11ea-bfaa-acde48001122",
+            "tags": []
+        }
+    ]
+}
